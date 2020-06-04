@@ -1,0 +1,165 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	bottom:0;
+	font: inherit;
+	vertical-align: baseline;
+	box-sizing: border-box;
+	font-size: 62.5%;
+font-family: 'Roboto Mono', monospace;
+}
+
+header{
+	margin-top: 2%;
+	width: 100%;
+	text-align: center;
+	height: 60px;
+}
+nav{
+	margin-top: 2%;
+	width: 100%;
+	display:block;
+	
+}
+
+nav a{
+	text-decoration: none;
+	color: white;
+	margin-left: 5%;
+	padding: 1%;
+	border-radius: 1.2rem;
+	font-size: 2rem;
+	background-color: #FF764E;
+	margin-right: 5%;
+	}
+nav a:nth-child(2) {
+	background-color: #5ED3EB;
+width: 20px !important;
+	
+}
+nav a:last-child{
+	background-color: #FFCD69;
+}
+nav a:hover{
+	background-color: #ededed;
+	color: black;
+}
+
+#main-info{
+	display:inline-block;
+	margin-left: 10%;
+	margin-top: 3%;
+}
+#left{
+	float: left;
+	width: 40%;
+	margin-left: 5%;
+}
+#right{
+	float: right;
+	width: 70%;
+	text-align: center;
+	margin-left: -50%;
+	
+}
+
+
+
+#header-img{
+	width: 60%;
+	border-radius : 50%;
+	   
+	
+}
+
+#header-img:hover{
+    width: 40%;
+    opacity: 0.5;
+}
+#header-info{
+	display: inline-block;
+}
+
+h1{
+	font-family : 'Chelsea Market', cursive;
+	font-size: 6rem;
+	text-align: center;
+	width: 80%;
+		margin:5% auto 1% auto;
+}
+#right p{
+	font-size: 2rem;
+	width: 70%;
+	text-align: center;
+	margin: 1% auto;
+}
+#right p:last-child{
+	font-size: 2rem;
+	width: 50%;
+	margin: auto;
+}
+#yosemite-description{
+	background-color: #DDB9A3;
+	width: 90%;
+	margin: 2% auto;
+	color: white;
+	text-align: center;
+	padding: 1%;
+	font-size: 3rem;	
+}
+
+#camping-info{
+	width: 15%;
+	margin: auto;
+	text-align: center;
+	margin-top: 1%;
+	margin-bottom: 3%;
+	font-size: 2rem;
+	
+}
+#campfire-paragraph-1,
+#campfire-paragraph-2{
+	margin: 20% 10%;
+	font-size: 2rem;
+}
+
+#camper,
+#campfire{
+	width: 100px;
+	margin:  auto;
+	text-align: center;
+
+	
+}
+
+#footer-img{
+	 width: 100%;
+ object-fit: cover;
+	height: 40vh;
+margin: 0;
+  
+	
+}
+footer {
+	background-color: #F9E7DC;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   text-align: center;
+	height: 100%;
+	padding-top: 1%;
+	padding-bottom: 4%;
+}
